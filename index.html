@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTSAV</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="favicon" href="favicon.ico?v=2">
+
+    <!--FONT EMBEDDING-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montaga&family=Montserrat&family=Noto+Sans+JP&family=Sacramento&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<!--div helps to divide the content in blocks basically-->
+<!--CSS display property
+        Block - p,h1,div(occupies entire line,width can be changed tho but still wont allow something else to come inline)
+        Inline - anchor(a)(jitna space chahiye utna hi...cannot change width)
+        Inline block - img(mix of both)
+        None - can be used to hide
+
+    However, one display element can be changed into other by
+    simply writing "display:___type_____" in the CSS part.
+-->
+
+<!--
+    POSITIONING
+
+    The position property specifies the type of positioning method used for an element
+    (static, relative, fixed, absolute or sticky).
+    static:default.
+    relative:relative to default.
+    absolute:relative to the entire webpage or the parent.
+            (container:ek div k andar dusra div to bahar wala is the parent and then
+            absolute poitioning uske respect mein hoga rather than body).
+    fixed:wont move once fixed....scroll karne pe bhi same place pe.-->
+
+    <div class="top-container">
+        <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+        <h1 style="color: #7ab7d6;">I'm Utsav.</h1>
+        <h2 style="color: #72afbd;font-weight: normal;font-size: 1.5rem; ">a student</h2>
+        <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+        <img class="big" src="images/mountain.png" alt="mountain-img">
+    </div>
+        <div class="middle-container">
+            <div class="profile">
+              <img class="example" src="/images/example.jpg" alt="image">
+              <h2>Hello.</h2>
+              <p>I am currently in second year of Computer Engineering.This is just a sample text to check if everything is working fine.</p>
+            </div>
+            <hr>
+            <div class="skills">
+              <h2 style="padding-top: 70px;">My Skills.</h2>
+              <div class="skill-row">
+                <img class="computer" src="/images/computer-circle.jpg" alt="computer-image">
+                <h3>Design and Creativity</h3>
+                <p>I currently have 0 skills really and I had to mention something here so wrote design and creativity.
+                Although I think I'm decent when it comes to designing but still have to learn a lot.</p>
+              </div>
+              <div class="skill-row">
+                <img class="football" src="/images/football-circle.png" alt="football-image">
+                <h3>I love Football</h3>
+                <p>I've been playing football since 9th grade.Started as a goalkeeper and now a goalscorer.
+                    Want to improve but I don't train enough.My idol is Cristiano Ronaldo but I still like Messi.
+                </p>
+              </div>
+            </div>
+            <hr>
+            <div class="contact-me">
+              <h2 style="padding-top: 50px; padding-bottom: 30px;">Get In Touch</h2>
+              <h3 style="padding-bottom: 30px; font-size: 1.5rem;">For the love of Football</h3>
+              <p style="margin-bottom:50px ;">When i get older,I will be stronger.They'll call me freedom just like a wavin' flag.
+                Love football? Let's talk more about it!
+              </p>
+              <a class="btn" href="mailto:avaiyautsav@gmail.com">CONTACT ME</a>
+            </div>
+          </div>
+          
+          
+          <div class="bottom-container">
+            <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+            <a class="footer-link" href="https://twitter.com/">Twitter</a>
+            <a class="footer-link" href="http://127.0.0.1:5500/index.html">Website</a>
+            <p style="color: #EAF6F6; margin-top: 50px; font-size: small;">© Utsav Avaiya @ G.O.A.T.</p>
+          </div>
+              
+</body>
+</html>
